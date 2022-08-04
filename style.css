@@ -1,0 +1,138 @@
+form {
+
+  box-sizing: border-box;
+  padding: 5%;
+  border-radius: 15%;
+  display:inline-table;
+  border: 5px solid hsl(0, 0%, 90%);
+  margin-top: 10%;
+  width: 20%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+#pesotext{
+font-family: Verdana, Geneva, sans-serif;
+font-size: 18px;
+letter-spacing: 0.6px;
+word-spacing: 0px;
+color: #000000;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+text-align: center;
+caret-color: transparent;
+}
+#alturatext{
+  
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+  text-align: center;
+  caret-color: transparent;
+  
+}
+
+
+
+
+body{
+  
+  background-image: url(img/background.svg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 96.5vh;
+ 
+  
+}
+
+
+#button {
+
+  margin-top: 5%;
+  font-family: 'arial black';
+  color: #14396A !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 10px #BEE2F9;
+  padding: 6px 10px;
+  border-radius: 40px;
+  border: 2px solid #3866A3;
+  background: #2D8EEE;
+  background: linear-gradient(to top, #2D8EEE, #468CCF);
+  caret-color: transparent;
+  text-align: center;
+
+}
+#button:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(to top, #468CCF, #63B8EE);
+  caret-color: transparent;
+}
+
+#button:active {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(to top, #468CCF, #63B8EE);
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  caret-color: transparent;
+}
+
+#altura{
+  border: none;
+  border-bottom: 2px solid rgb(56, 56, 56);
+}
+#peso{
+  border: none;
+  border-bottom: 2px solid rgb(56, 56, 56);
+
+}
+
+#tituloh1{
+  text-align: center;
+  caret-color: transparent;
+}
+
+#imcshow{
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.6px;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+
+    text-align: center;
+    caret-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6{
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.6px;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-align: center;
+  caret-color: transparent;
+
+}
